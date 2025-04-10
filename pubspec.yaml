@@ -1,0 +1,51 @@
+name: xxxx
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  stomp_dart_client: ^0.4.4
+  http: ^0.13.6
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  firebase_database: ^11.3.5
+  firebase_analytics: ^11.4.5
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.11
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/wal.png
+    - assets/images/logo.png
+    - assets/images/verificado.png
+    - assets/images/denegado.png
+
+
+
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
